@@ -2,16 +2,24 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
 body{
   margin:0;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;  
 }
 
 header{  
-  background-color: green;
-  height:70%;
-  margin:.9rem 0; 
-  border:3px #D11C24 solid;
+  color: #b81313;
+  margin:.9rem 0;   
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0 .05em .1em #fff;
+  animation-name: hover;
+  animation-iteration-count: infinite;
+  animation-duration: 3.5s;
+  
 }
 
   .carousel-inner > .item > img,
@@ -19,18 +27,14 @@ header{
       width: 90%;
       margin: auto;
   }
-header h1{
-  color:white;
-  text-align:center; 
-  padding:.1rem;
-  letter-spacing: 1px;
-  font-family:"Lobster";  
-  font-size: 7vw;
+
+h1{
+  font-size: 54px;
 }
 
 h2, h3, h4{
-  color:#D11C24;
-  font-family:"Lobster";
+  color: #b81313;
+  font-family: 'Berkshire Swash', cursive;
 }
 h3{
   color:black;
@@ -42,7 +46,7 @@ h3{
 
 /* Carousel base class */
 .carousel {
- border:3px #D11C24 solid;
+ border:1px black solid;
   margin-bottom: .9rem;
 }
 /* Since positioning the image, we need to help out the caption */
