@@ -9,7 +9,11 @@ body{
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;  
 }
 
-header{  
+.jumbotron {
+    padding:10px;
+}
+
+.jumbotron header{  
   color: #b81313;
   margin:.9rem 0;   
   font-family: 'Berkshire Swash', cursive;
@@ -18,7 +22,8 @@ header{
   text-shadow: 0 .05em .1em #fff;
   animation-name: hover;
   animation-iteration-count: infinite;
-  animation-duration: 3.5s;
+  animation-duration: 3.5s; 
+  padding-bottom: 10px;
   
 }
 
